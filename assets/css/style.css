@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button {
+    color: #ffffff; 
+    background: #0d6efd;
+}
+.button:hover{
+    background: #ffffff;
+    color:#0d6efd;
+}
+
+a:hover {
+    color: #0d6efd !important;
+}
+
+.font-roboto {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.intro > h1, .intro > h2 {
+    font-size: 50px;
+}
+.intro > h1 {
+    font-weight:lighter;
+}
+.banniere {
+    background: url("../img/fotis-fotopoulos-unsplash.jpg") fixed;
+    background-size: cover;
+    height: 560px;
+
+    /* background-position: center; */
+    color: white;
+}
+
+.intro{
+    width: 100%;
+    position:absolute;
+    bottom: 250px;
+    left: 160px;
+}
+.welcome {
+    color: #0d6efd;
+    font-family: 'Permanent Marker', cursive, sans-serif;
+    font-size: 50px;
+    
+}
+.wordpress {
+    background: url("../img/ben-kolde-unsplash.jpg") center fixed;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.wordpress-content{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    text-shadow: 0.5px 0.5px 1px #000000 ;
+    height: 700px;
+}
+
+.wordpress-content > div > h2 {
+    font-size: 63px;
+}
+
+
+.avatar{
+    /* Rounded border */
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+  }
